@@ -3,59 +3,62 @@ xset
 Xorg display preference utility
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  libX11_6-1.0.0-2
-  libXext6-1.0.0-1
+  cygwin-1.5.20-1
+  libX11_6-1.0.1-1
+  libXext6-1.0.1-1
   libXfontcache1-1.0.1-1
-  libXmuu1-1.0.0-1
+  libXmuu1-1.0.2-1
   libXp6-1.0.0-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.7-1.7.9-1
+  cygwin-1.5.20-1
+  autoconf2.5-2.59-2
+  automake1.9-1.9.6-1
   binutils-20050610-1
-  cygport-0.1.6-1
+  cygport-0.2.2-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
   make-3.80-1
   pkg-config-0.20-1
-  sed-4.1.4-1
-  xorg-util-macros-1.0.1-1
+  sed-4.1.5-1
+  xorg-util-macros-1.0.2-1
 
 Canonical website:
   http://xorg.freedesktop.org/
 
 Canonical download:
-  http://xorg.freedesktop.org/releases/individual/
+  http://xorg.freedesktop.org/releases/individual/app/
 
 -------------------------------------------
 
 Build instructions:
-  unpack xset-1.0.1-X-src.tar.bz2
+  unpack xset-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xset-1.0.1-X.cygport all
+  cygport ./xset-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/xset-1.0.1-X-src.tar.bz2
-  /usr/src/xset-1.0.1-X.tar.bz2
+  /usr/src/xset-1.0.2-X-src.tar.bz2
+  /usr/src/xset-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/xset.exe
-  /usr/share/doc/Cygwin/xset-1.0.1.README
-  /usr/share/doc/xset-1.0.1/COPYING
-  /usr/share/doc/xset-1.0.1/ChangeLog
+  /usr/share/doc/Cygwin/xset-1.0.2.README
+  /usr/share/doc/xset-1.0.2/COPYING
+  /usr/share/doc/xset-1.0.2/ChangeLog
   /usr/share/man/man1/xset.1.gz
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+X11R7.1 version bump.
 
 ----- version 1.0.1-1 -----
 Initial Cygwin release of modular X11R7.0.
