@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11_6 libXext6 libXfontcache1 libXmuu1 libXp6
-sdesc: "Xorg display preference utility"
-ldesc: "Xorg display preference utility"
+requires: cygwin libX11_6 libXext6 libXfontcache1 libXmuu1
+sdesc: "X.Org display preference utility"
+ldesc: "X.Org display preference utility"
