@@ -6,7 +6,6 @@ Runtime requirements:
   cygwin-1.5.25-15
   libX11_6-1.1.5-1
   libXext6-1.0.4-1
-  libXfontcache1-1.0.4-1
   libXmuu1-1.0.4-1
 
 Build requirements:
@@ -53,6 +52,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.4-2 -----
+Removed dependency on obsolete libXfontcache.
 
 ----- version 1.0.4-1 -----
 Version bump for X11R7.4.
