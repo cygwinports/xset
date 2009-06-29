@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11_6 libXext6 libXmuu1
+requires: libX11_6 libXext6 libXmuu1
 sdesc: "X.Org display preference utility"
 ldesc: "X.Org display preference utility"
