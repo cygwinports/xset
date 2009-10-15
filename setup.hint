@@ -1,4 +1,4 @@
 category: X11
-requires: libX11_6 libXext6 libXmuu1
+requires: libgcc1 libX11_6 libXext6 libXmuu1
 sdesc: "X.Org display preference utility"
 ldesc: "X.Org display preference utility"
