@@ -1,0 +1,9 @@
+inherit xorg
+
+NAME="xset"
+VERSION=1.2.2
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X display preferences utility"
+DESCRIPTION="This program is used to set various user preference options of
+an X display."
